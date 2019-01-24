@@ -1,3 +1,3 @@
 #!/bin/sh
-export GOPATH="$PROJECTS/go"
+export GOPATH="$HOME/go"
 export PATH="$PATH:$GOPATH/bin"
