@@ -44,4 +44,4 @@ fi
 # [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # If you come from bash you might have to change your $PATH.
-export PATH="$HOME/.local/bin:$HOME/bin:$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$HOME/google-cloud-sdk/bin:/usr/local/bin:$HOME/homebrew/opt/gettext/bin:$PATH"
+export PATH="$HOME/bin/kafka/bin:$HOME/bin/zookeeper/bin:$HOME/.local/bin:$HOME/bin:$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$HOME/google-cloud-sdk/bin:/usr/local/bin:$HOME/homebrew/opt/gettext/bin:$PATH"
