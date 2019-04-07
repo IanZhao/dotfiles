@@ -1,6 +1,5 @@
 # -*- mode: gitignore; -*-
-#
-# 
+# mergetool create residue files, don't commit those
 *.orig
 
 # Compiled Python files
