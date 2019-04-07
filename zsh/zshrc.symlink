@@ -26,9 +26,6 @@ done
 # bind keys
 bindkey -e
 
-# load antibody plugins
-source ~/.zsh_plugins.sh
-
 # load everything but the path and completion files
 for file in ${${config_files:#*/path.zsh}:#*/completion.zsh}; do
   source "$file"
@@ -59,3 +56,5 @@ export N_PREFIX="$HOME/n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PR
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
+# load antibody plugins
+source ~/.zsh_plugins.sh

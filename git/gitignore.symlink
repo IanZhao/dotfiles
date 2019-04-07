@@ -1,4 +1,7 @@
 # -*- mode: gitignore; -*-
+#
+# 
+*.orig
 
 # Compiled Python files
 *.pyc

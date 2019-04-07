@@ -13,6 +13,12 @@ zsh-users/zsh-autosuggestions
 sindresorhus/pure
 # bhilburn/powerlevel9k
 # denysdovhan/spaceship-prompt
+# git stuff
+peterhurford/git-aliases.zsh
+# unixorn/git-extra-commands
+# peterhurford/git-it-on.zsh
+# tevren/gitfast-zsh-plugin
+# voronkovich/gitignore.plugin.zsh
 
 zsh-users/zsh-syntax-highlighting
 zsh-users/zsh-history-substring-search
