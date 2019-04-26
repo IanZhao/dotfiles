@@ -58,4 +58,4 @@ export N_PREFIX="$HOME/n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PR
 
 # load antibody plugins
 source ~/.zsh_plugins.sh
-export HOMEBREW_GITHUB_API_TOKEN=bf468de3a1c6452f7a58e3d56dc01884ef80bbdb
+export HOMEBREW_GITHUB_API_TOKEN=c1cd4150171e9adb4b73ca8c7938db7db15fb671
