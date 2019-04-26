@@ -1,6 +1,7 @@
-[credential]
-	helper = osxkeychain
-[merge]
-	tool = vscode
-[mergetool "vscode"]
-	cmd = "code --wait "
+[user]
+	name = chenyangzhao
+	email = chzhao8904@gmail.com
+[include]
+	path = /Users/chenyangzhao/.gitconfig.local
+[dotfiles]
+	managed = true
