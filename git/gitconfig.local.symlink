@@ -1,5 +1,4 @@
-[difftool "diffmerge"]
-	cmd = diffmerge $LOCAL $REMOTE
+# aliases
 [alias]
 	co = checkout
 	count = shortlog -sn
@@ -12,7 +11,7 @@
 	commend = commit --amend --no-edit
 	fpr = fetch-pr
 	lt = log --tags --decorate --simplify-by-decoration --oneline
-    update-from = "!f() { git fetch ( --prune; git merge --ff-only (/[ || git rebase --preserve-merges (/[; }; f""]) ]) ) }"
+# general
 [color]
 	diff = auto
 	status = auto
@@ -29,16 +28,6 @@
 	whitespace = nowarn
 [help]
 	autocorrect = 1
-[merge]
-	tool = diffmerge
-[mergetool "diffmerge"]
-	cmd = diffmerge --merge --result=$MERGED $LOCAL $BASE $REMOTE
-	trustExitCode = true
-	keepBackup = false
-[diff]
-	tool = diffmerge
-[difftool]
-	prompt = false
 [grep]
 	extendRegexp = true
 	lineNumber = true
@@ -50,3 +39,11 @@
 	template = ~/.dotfiles/git/template.txt
 [log]
 	showSignature = false
+
+# diff and merge
+[merge]
+    tool = "smerge"
+    conflictstyle = diff3
+[mergetool "smerge"]
+    cmd = smerge mergetool \"$BASE\" \"$REMOTE\" \"$LOCAL\" -o \"$MERGED\"
+    trustExitCode = true

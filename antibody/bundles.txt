@@ -22,3 +22,5 @@ voronkovich/gitignore.plugin.zsh
 
 zsh-users/zsh-syntax-highlighting
 zsh-users/zsh-history-substring-search
+
+bhilburn/powerlevel9k
