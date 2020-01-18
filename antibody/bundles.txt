@@ -10,8 +10,7 @@ rupa/z
 zsh-users/zsh-completions
 zsh-users/zsh-autosuggestions
 # these should be at last!
-sindresorhus/pure
-# bhilburn/powerlevel9k
+# sindresorhus/pure
 # denysdovhan/spaceship-prompt
 # git stuff
 peterhurford/git-aliases.zsh
@@ -22,5 +21,3 @@ voronkovich/gitignore.plugin.zsh
 
 zsh-users/zsh-syntax-highlighting
 zsh-users/zsh-history-substring-search
-
-bhilburn/powerlevel9k
