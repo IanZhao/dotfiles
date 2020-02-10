@@ -331,23 +331,3 @@ function! VisualSelection(direction, extra_filter) range
     let @/ = l:pattern
     let @" = l:saved_reg
 endfunction
-
-""""""""""""""""""""""""""""""""""""""""""""""""""
-" Plugins
-""""""""""""""""""""""""""""""""""""""""""""""""""
-" Specify a directory for plugins
-" - For Neovim: stdpath('data') . '/plugged'
-" - Avoid using standard Vim directory names like 'plugin'
-call plug#begin('~/.vim/plugged')
-
-" vim-which-key
-Plug 'liuchengxu/vim-which-key'
-
-" Initialize plugin system
-call plug#end()
-
-
-""""""""""""""""""""""""""""""""""""""""""""""""""
-" Plugins setup
-""""""""""""""""""""""""""""""""""""""""""""""""""
-nnoremap <silent> <leader> :WhichKey ','<CR>

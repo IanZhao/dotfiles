@@ -1,0 +1,9 @@
+set runtimepath+=~/dotfiles/vim
+source ~/dotfiles/vim/vimrc.vim
+source ~/dotfiles/vim/filetypes.vim
+source ~/dotfiles/vim/plugins_config.vim
+source ~/dotfiles/vim/extended.vim
+try
+source ~/.vim/my_configs.vim
+catch
+endtry
