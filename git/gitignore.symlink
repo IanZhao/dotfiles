@@ -222,3 +222,6 @@ Session.vim
 tags
 # Persistent undo
 [._]*.un~
+
+# cherry pick tool
+.cherrypick

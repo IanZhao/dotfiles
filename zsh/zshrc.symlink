@@ -69,6 +69,10 @@ export PATH="$PYENV_ROOT/bin:$PATH"
 if command -v pyenv 1>/dev/null 2>&1; then
   eval "$(pyenv init -)"
 fi
+
+# direnv
+eval "$(direnv hook bash)"
+
 # eval "$(pyenv virtualenv-init -)"
 
 # Amuse theme
@@ -84,6 +88,5 @@ ZSH_THEME_GIT_PROMPT_CLEAN=""
 ZSH_THEME_RUBY_PROMPT_PREFIX="%{$fg_bold[red]%}‹"
 ZSH_THEME_RUBY_PROMPT_SUFFIX="›%{$reset_color%}"
 
-PROMPT='
-%{$fg_bold[green]%}%~%{$reset_color%}⌚ %{$fg_bold[red]%}%*%{$reset_color%}
-$ '
+eval "$(pyenv virtualenv-init -)"
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir newline vcs)

@@ -11,6 +11,7 @@
 	commend = commit --amend --no-edit
 	fpr = fetch-pr
 	lt = log --tags --decorate --simplify-by-decoration --oneline
+    chp = cherry-pick
 # general
 [color]
 	diff = auto
@@ -36,7 +37,7 @@
 [submodule]
 	fetchJobs = 4
 [commit]
-	template = ~/.dotfiles/git/template.txt
+	template = ~/dotfiles/git/template.txt
 [log]
 	showSignature = false
 
